@@ -1,5 +1,10 @@
-.App {
+.body {
   text-align: center;
+  background: url(./images/backgroundimg.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .App-logo {
