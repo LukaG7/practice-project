@@ -1,19 +1,3 @@
-// import { TextField } from "@mui/material";
-// import { Link } from 'react-router-dom';
-
-
-// function Home() {
-//     return (
-//         <div className="home-div">
-//             <TextField className="searchbar" id="standard-basic" label="Search" variant="standard" />
-//             <h1 className="title">Welcome to MineChat!</h1>
-//             <Link to='/signin' className="signup"><h3>Sign In</h3></Link> {/**this will appear as 'profile' when logged in */}
-//             <Link to='/' className="homelink"><h3>Home</h3></Link>
-//         </div>
-//     )
-// }
-
-// export default Home;
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -29,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['SignIn', 'SignUp', ''];
+const pages = ['SignIn', 'SignUp'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
