@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import SignIn from './SignIn';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -23,9 +24,9 @@ export default function Home() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            MINECHAT
+            <Link className='minechat-btn' to='/'>MINECHAT</Link>
           </Typography>
-          <Button color="inherit" to={<SignIn />}>Login</Button>
+          <Link className='login-btn' to='/signin'><Button color="inherit">Login</Button></Link>
         </Toolbar>
       </AppBar>
     </Box>

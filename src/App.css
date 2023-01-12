@@ -27,3 +27,13 @@ body {
 .homelink {
   text-decoration: none;
 }
+
+.login-btn {
+  text-decoration: none;
+  color: white;
+}
+
+.minechat-btn {
+  text-decoration: none;
+  color: white;
+}
